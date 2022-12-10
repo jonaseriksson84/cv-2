@@ -1,13 +1,14 @@
 <script lang="ts">
   import logo from './assets/svelte.png'
   import Header from './lib/Header.svelte'
+  import Sidebar from './lib/Sidebar.svelte'
 </script>
 
 <main>
   <header>
     <Header />
   </header>
-  <aside>SIDEBAR</aside>
+  <aside><Sidebar /></aside>
   <section>MAIN</section>
   <footer>FOOTER</footer>
 </main>
